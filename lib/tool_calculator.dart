@@ -45,6 +45,9 @@ class _ToolCalculatorState extends State<ToolCalculator> {
       switch (operation) {
         case '+':
           result = '${firstNum + secondNum}';
+          if (result.startsWith('RESULT: ')) {
+            result = '';
+          }
           break;
         case '-':
           result = '${firstNum - secondNum}';
