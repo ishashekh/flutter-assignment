@@ -1,17 +1,22 @@
+// Importing the material library from Flutter
 import 'package:flutter/material.dart';
 
+// Declaring a StatefulWidget named ToolNotes
 class ToolNotes extends StatefulWidget {
   const ToolNotes({Key? key}) : super(key: key);
 
+  // Overriding createState method to return an instance of _ToolNotesState
   @override
   _ToolNotesState createState() => _ToolNotesState();
 }
 
+// Declaring a State class named _ToolNotesState which extends State<ToolNotes>
 class _ToolNotesState extends State<ToolNotes> {
   List<String> _notes = [];
 
   TextEditingController _noteController = TextEditingController();
 
+  // Defining a function named _addNote to add a note to _notes List
   void _addNote() {
     if (_noteController.text.isNotEmpty) {
       setState(() {
@@ -21,12 +26,14 @@ class _ToolNotesState extends State<ToolNotes> {
     }
   }
 
+  // Defining a function named _deleteNoteAt to remove a note from _notes List
   void _deleteNoteAt(int index) {
     setState(() {
       _notes.removeAt(index);
     });
   }
 
+  // Defining a function named _editNoteAt to edit a note in _notes List
   void _editNoteAt(int index) {
     _noteController.text = _notes[index];
     showDialog(
@@ -57,6 +64,7 @@ class _ToolNotesState extends State<ToolNotes> {
     );
   }
 
+  // Implementing the build method to build the UI
   @override
   Widget build(BuildContext context) {
     return Scaffold(
