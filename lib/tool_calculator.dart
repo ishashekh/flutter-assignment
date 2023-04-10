@@ -221,7 +221,7 @@ class _ToolCalculatorState extends State<ToolCalculator> {
               children: [
                 ElevatedButton(
                   onPressed: onClearPressed,
-                  child: Text('C'),
+                  child: Text('CLR'),
                 ),
                 ElevatedButton(
                   onPressed: () => onNumPressed('0'),

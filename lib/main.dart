@@ -78,7 +78,28 @@ class _MyHomePageState extends State<MyHomePage> {
               'Welcome to Our Flutter Web Application!',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 24,
+                fontSize: 29,
+              ),
+            ),
+            SizedBox(height: 16),
+            Text(
+              'We, Isha Shekh and Manmohan Singh, worked together as a team of two on Assignment 4 of Mobile Web Application.',
+              style: TextStyle(
+                fontSize: 16,
+              ),
+            ),
+            Text(
+              'We are pleased to share our completed work with you and look forward to your feedback.',
+              style: TextStyle(
+                fontSize: 16,
+              ),
+            ),
+            SizedBox(height: 16),
+            Text(
+              'Chooce one of the following tools:',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
               ),
             ),
             const SizedBox(height: 16),
