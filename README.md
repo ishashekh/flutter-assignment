@@ -8,7 +8,7 @@ Install Flutter Plugin to your android studio and run the project on preferred w
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Create Your Flutter App: ](https://docs.flutter.dev/get-started/flutter-for/android-devs)
+- [Create Your Flutter App](https://docs.flutter.dev/get-started/flutter-for/android-devs)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/get-started/flutter-for/android-devs), which offers tutorials,
