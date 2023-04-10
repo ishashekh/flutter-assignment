@@ -1,16 +1,15 @@
 # flutter_assignment
 
-A new Flutter project.
+A new Flutter project for Mobile Web Applications - MDEV1005
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Install Flutter Plugin to your android studio and run the project on preferred web browser.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Create Your Flutter App: ](https://docs.flutter.dev/get-started/flutter-for/android-devs)
 
 For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[online documentation](https://docs.flutter.dev/get-started/flutter-for/android-devs), which offers tutorials,
+samples and guidance on mobile development.
